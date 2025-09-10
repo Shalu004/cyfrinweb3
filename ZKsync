@@ -1,0 +1,18 @@
+zkSync is a Layer-2 scaling solution for Ethereum, built using zk-Rollups (zero-knowledge rollups).
+
+Breaking It Down:-
+
+Ethereum Layer-1 (Mainnet)
+Very secure, but slow and expensive.
+Every transaction is processed by all Ethereum nodes.
+
+Layer-2 (zkSync)
+Runs on top of Ethereum.
+Collects (or "rolls up") many transactions together off-chain.
+Uses zero-knowledge proofs (zk-SNARKs/zk-STARKs) to prove that these transactions are valid.
+Only the proof (tiny data) is posted back to Ethereum.
+This makes it cheaper and faster than doing everything directly on Ethereum.
+
+Zero-Knowledge Proof (ZKP)
+A cryptographic way to prove something is true without revealing all the details.
+zkSync uses it to prove that a batch of transactions is valid, without replaying all of them on Ethereum.
