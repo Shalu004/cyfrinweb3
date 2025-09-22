@@ -12,3 +12,15 @@
 //Storage
 //Variables stored in storage are persistent on the blockchain, retaining their values between function calls and transactions.
 //22-09-25
+
+//SPDX-License-Identifier:MIT
+pragma solidity ^0.8.19;
+contract datalocation{
+    //string public name= "romeo";
+
+    function toread() public pure returns (string memory _name){
+        string memory name="romeo";
+        return name;
+    }
+
+}
