@@ -1,0 +1,27 @@
+>>> transfer, send, and call
+
+1.transfer
+
+Gas limit: 2300 gas forwarded (enough for a simple receive but not for complex fallback logic).
+Reverts automatically if the transfer fails.
+Safer, but can break if gas costs change (like after the Istanbul hard fork).
+
+2.send
+
+Gas limit: 2300 gas forwarded (same as transfer).
+Returns a boolean (true/false) instead of reverting.
+Requires explicit require(success, "send failed").
+Less safe because you might forget to check the return value.
+
+3.call
+
+Most flexible.
+Forwards all remaining gas by default (but you can set a gas limit).
+Returns a tuple (success, data).
+Recommended way in modern Solidity to send Ether.
+Must handle success/failure manually.
+
+📕 Why convert an address to payable?
+
+By default, address in Solidity is a non-payable type (can store an address but not receive Ether directly).
+To send Ether, the compiler requires address payable.
