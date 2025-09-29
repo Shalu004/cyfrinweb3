@@ -1,0 +1,32 @@
+🔴 Red Button – fund
+This is a payable function (your fund() in the contract).
+When you click it:
+It sends Ether from the currently selected Remix account into the contract.
+The require inside makes sure the amount is ≥ minimumUsd in ETH terms.
+The sender’s address gets stored in funders[], and the mapping records how much ETH they sent.
+
+👉 How to use:
+Go to the Value field (just above "Deploy & Run Transactions").
+Enter an amount in ETH (e.g., 0.01).
+Click fund.
+If the ETH sent is enough, the transaction succeeds. Otherwise, you’ll see a revert error.
+
+🟠 Orange Button – withdraw
+This is your withdraw() function.
+It will transfer all funds from the contract to the owner’s account (the one who deployed the contract).
+You added onlyOwner (though the modifier’s code isn’t in the screenshot), so only the owner can call it.
+
+👉 How to use:
+Make sure the selected account in Remix is the owner (the deployer).
+Click withdraw.
+The balance in the contract will drop to 0, and ETH will move to the owner’s wallet.
+
+🔵 Blue Buttons – addressToAmountFund, funders, minimumUsd, owner
+These represent public state variables in your contract.
+Since you marked them as public, Remix automatically generates getter functions.
+addressToAmountFund (mapping):
+Takes an input (Ethereum address).
+Returns how much ETH that address has contributed.
+
+
+
