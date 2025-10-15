@@ -1,0 +1,5 @@
+-> ERC = Ethereum Request for Comments → a proposal standard that developers use to create and discuss improvements.
+-> 20 = The unique ID number of that proposal (the 20th proposal).
+-> So ERC-20 defines a common set of rules that all Ethereum tokens of this type must follow — allowing them to work seamlessly with wallets, 
+exchanges, and smart contracts.
+
