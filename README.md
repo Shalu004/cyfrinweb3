@@ -45,3 +45,22 @@ That’s the real power of blockchain and smart contracts ,they let us coordinat
 Blockchain started as the backbone of Bitcoin, but it’s evolved into something much bigger. From decentralized payments to self-executing smart contracts, it’s redefining how we trust, transact, and build in the digital world.
 
 We are into an era where code replaces middlemen, transparency replaces blind trust, and decentralization empowers users. And this is just the beginning.
+
+
+
+---------------------------------------------------------------------------------
+
+| Feature  | **ERC-20**               | **ERC-721**              |
+| -------- | ------------------------ | ------------------------ |
+| Type     | Fungible                 | Non-Fungible             |
+| Meaning  | All tokens are identical | Each token is unique     |
+| Use      | Cryptos, utility tokens  | NFTs, collectibles       |
+| Example  | USDT, LINK               | Bored Ape, CryptoPunk    |
+| Transfer | `transfer()`             | `safeTransferFrom()`     |
+| Value    | Same for all tokens      | Different for each token |
+| Metadata | Shared                   | Unique per token         |
+
+ **ERC-20 = Fungible tokens (like money)**
+ **ERC-721 = NFTs (unique items)**
+
+
