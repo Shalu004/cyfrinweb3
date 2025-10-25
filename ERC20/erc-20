@@ -2,4 +2,19 @@
 -> 20 = The unique ID number of that proposal (the 20th proposal).
 -> So ERC-20 defines a common set of rules that all Ethereum tokens of this type must follow — allowing them to work seamlessly with wallets, 
 exchanges, and smart contracts.
+what is tokens
+>A token is a digital asset or unit of value created and managed on a blockchain.
+>Fungible tokens=All units are identical and interchangeable.
+>Non-fungible tokens (NFTs)=Each token is unique and not interchangeable.
+>Utility tokens=Used to access a service or platform feature.
+>Security tokens=Represent investment ownership or financial rights.
+>Governance tokens=Give voting rights in decentralized projects.
+
+COIN VS TOKEN
+      Coin	
+Has its own blockchain (e.g., Bitcoin, Ethereum)	
+Used for network operations (gas, mining, etc.)	
+      Token
+>Built on another blockchain (e.g., ERC-20 on Ethereum)
+>Used for apps, payments, governance, or ownership
 
