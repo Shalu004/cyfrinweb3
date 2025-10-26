@@ -1,0 +1,1 @@
+Foundry is a powerful toolchain for Ethereum development, written in Rust, and used mainly for building, testing, and deploying smart contracts.
